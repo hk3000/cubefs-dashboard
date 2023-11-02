@@ -307,12 +307,12 @@ export default {
   align-items: center;
 }
 .logo {
-  margin-top: 8vh;
+  margin-top: 12vh;
   margin-bottom: 4vh;
 }
 .description {
   width: 800px;
-  font-size: 26px;
+  font-size: 45px;
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
