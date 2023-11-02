@@ -17,7 +17,7 @@
 <template>
   <div id="app">
     <Noop v-if="layout === 'Noop'"></Noop>
-    <Common v-else app-name="CubeFS控制台" :hide-psa-side-bar="false"></Common>
+    <Common v-else app-name="控制台" :hide-psa-side-bar="false"></Common>
   </div>
 </template>
 <script>

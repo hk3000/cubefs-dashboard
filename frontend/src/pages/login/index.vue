@@ -24,7 +24,7 @@
     </div>
     <Logo class="logo" />
     <div class="description">
-      Infinite Storage, Limitless Value
+      GooxiFS
     </div>
     <div v-if="!isSignup" class="login">
       <el-form
@@ -125,7 +125,6 @@
       </el-form>
       <el-button v-loading="signupLoading" class="signup-btn-big" :class="{ active: canSignup }" @click="signup">{{ isPassword ? $t('common.changepasswd') : $t('common.signup') }}</el-button>
     </div>
-    <div class="copyright">© 2023 The CubeFS Authors</div>
   </div>
 </template>
 
