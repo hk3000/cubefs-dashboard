@@ -73,7 +73,7 @@ var (
 	}
 	backend           = 0
 	front             = 1
-	prefix            = "/api/cubefs/console"
+	prefix            = "/it/console"
 	DefaultPermission = []model.AuthPermission{
 		// clusters
 		{AuthCode: "CLUSTER_CREATE", AuthName: "create cluster", AuthType: &backend, URI: prefix + "/clusters/crete", Method: "POST", IsLogin: true, IsCheck: true},
